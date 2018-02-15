@@ -11,10 +11,6 @@ using System.Web.Mvc;
 
 namespace BRDFountain.Models
 {
-
-
-
-
     public class TransferSetting
     {
         public string Id { get; set; }
@@ -24,7 +20,6 @@ namespace BRDFountain.Models
         public string TransferTo { get; set; }
         public string IsActive { get; set; }
     }
-
 
     public class StrategyVersionLog
     {

@@ -47,7 +47,7 @@
     </Reference>
     <Reference Include="EPPlus, Version=4.1.1.0, Culture=neutral, PublicKeyToken=ea159fdaa78159a1, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\EPPlus.4.1.1\lib\net40\EPPlus.dll</HintPath>
+      <HintPath>DLL\EPPlus.dll</HintPath>
     </Reference>
     <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -61,10 +61,6 @@
     <Reference Include="MySql.Data, Version=6.1.2.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>DLL\MySql.Data.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Newtonsoft.Json.5.0.8\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -420,20 +416,6 @@
     <Content Include="bower_components\bootstrap-datepicker\tests\suites\touch_navigation\all.js" />
     <Content Include="bower_components\bootstrap-datepicker\tests\tests.html" />
     <Content Include="bower_components\bootstrap-datepicker\tests\timezone.html" />
-    <Content Include="bower_components\bootstrap-daterangepicker\daterangepicker.css" />
-    <Content Include="bower_components\bootstrap-daterangepicker\daterangepicker.js" />
-    <Content Include="bower_components\bootstrap-daterangepicker\demo.html" />
-    <Content Include="bower_components\bootstrap-daterangepicker\drp.png" />
-    <Content Include="bower_components\bootstrap-daterangepicker\example\amd\index.html" />
-    <Content Include="bower_components\bootstrap-daterangepicker\example\amd\main.js" />
-    <Content Include="bower_components\bootstrap-daterangepicker\example\amd\require.js" />
-    <Content Include="bower_components\bootstrap-daterangepicker\example\browserify\bundle.js" />
-    <Content Include="bower_components\bootstrap-daterangepicker\example\browserify\index.html" />
-    <Content Include="bower_components\bootstrap-daterangepicker\example\browserify\main.js" />
-    <Content Include="bower_components\bootstrap-daterangepicker\package.js" />
-    <Content Include="bower_components\bootstrap-daterangepicker\website\index.html" />
-    <Content Include="bower_components\bootstrap-daterangepicker\website\website.css" />
-    <Content Include="bower_components\bootstrap-daterangepicker\website\website.js" />
     <Content Include="bower_components\bootstrap-timepicker\js\bootstrap-timepicker.js" />
     <Content Include="bower_components\bootstrap\dist\css\bootstrap-theme.css" />
     <Content Include="bower_components\bootstrap\dist\css\bootstrap-theme.min.css" />
@@ -2003,16 +1985,11 @@
     <Content Include="images\bg.jpg" />
     <Content Include="images\clock.png" />
     <Content Include="images\Close.png" />
-    <Content Include="images\coba-bg.png" />
     <Content Include="images\CSV_icon.png" />
     <Content Include="images\dash.png" />
-    <Content Include="images\dashboard.png" />
     <Content Include="images\delete.png" />
     <Content Include="images\docs.png" />
     <Content Include="images\edit.png" />
-    <Content Include="images\Email.png" />
-    <Content Include="images\EmailMap.png" />
-    <Content Include="images\EmailNotmap.png" />
     <Content Include="images\Excel.png" />
     <Content Include="images\eyeicon.png" />
     <Content Include="images\fax.png" />
@@ -2025,7 +2002,6 @@
     <Content Include="images\mail.png" />
     <Content Include="images\map.png" />
     <Content Include="images\pdf.png" />
-    <Content Include="images\PDF_icon.png" />
     <Content Include="images\pge.png" />
     <Content Include="images\rep.png" />
     <Content Include="images\RoleManagement_icon.png" />
@@ -2252,12 +2228,6 @@
     <Content Include="bower_components\bootstrap-datepicker\README.md" />
     <Content Include="bower_components\bootstrap-datepicker\tests\README.md" />
     <Content Include="bower_components\bootstrap-datepicker\yarn.lock" />
-    <Content Include="bower_components\bootstrap-daterangepicker\.bower.json" />
-    <Content Include="bower_components\bootstrap-daterangepicker\bower.json" />
-    <Content Include="bower_components\bootstrap-daterangepicker\daterangepicker.scss" />
-    <Content Include="bower_components\bootstrap-daterangepicker\example\browserify\README.md" />
-    <Content Include="bower_components\bootstrap-daterangepicker\package.json" />
-    <Content Include="bower_components\bootstrap-daterangepicker\README.md" />
     <Content Include="bower_components\bootstrap-timepicker\.bower.json" />
     <Content Include="bower_components\bootstrap-timepicker\bower.json" />
     <Content Include="bower_components\bootstrap-timepicker\CHANGELOG.md" />
